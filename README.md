@@ -6,7 +6,7 @@ A Streamlit-based voice assistant application that uses Groq AI for text generat
 
 1. Create a new Space on Hugging Face:
 
-   - Go to https://huggingface.co/spaces
+   - Go to <https://huggingface.co/spaces>
    - Click "Create new Space"
    - Choose "Docker" as the SDK
    - Name your space and set it to public/private as desired
@@ -28,16 +28,21 @@ A Streamlit-based voice assistant application that uses Groq AI for text generat
 
 1. Clone the repository
 2. Create a `.env` file with your Groq API key:
-   ```
+
+   ```env
    GROQ_API_KEY=your_api_key_here
    ```
+
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
+
 4. Run the application:
+
    ```bash
-   streamlit run voice-assistant-streamlit/voice-assistant-streamlit.py
+   streamlit run src/streamlit_app.py
    ```
 
 ## Features
